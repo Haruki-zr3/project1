@@ -17,7 +17,7 @@ public class Game{
             System.out.println("How many rounds do you want to play?");
             rounds=m.nextInt();
             for(int i=1;i<=rounds;i++){
-                System.out.println("Now, What u want to choose nigga? :");
+                System.out.println("Now, What u want to choose? :");
                 System.out.println(" Rock/Paper/Sciccors ");
                 ch=m.next();
                 R=r.nextInt(3);
