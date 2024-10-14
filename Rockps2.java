@@ -2,8 +2,6 @@ import java.util.*;
 public class Game{
     public static void main(String[] args){
         int game=1;
-        //System.out.println();
-        //.equalsIgnoreCase()
         Scanner m=new Scanner(System.in);
         Random r=new Random();
         System.out.println("*".repeat(5)+" ROCK PAPER SCISSORS "+"*".repeat(5));
@@ -42,6 +40,7 @@ public class Game{
                         System.out.println("you chose\t"+user+"\tcomp chose\t"+compch);
                         if(user.equalsIgnoreCase(compch)){
                             System.out.println("Tied");
+                            System.out.println("You:"+u+"\tComp:"+c);
                         }
                         else if(user.equalsIgnoreCase("paper")){
                             System.out.println("You won,Comp lost");
@@ -53,13 +52,13 @@ public class Game{
                             c++;
                             System.out.println("You:"+u+"\tComp:"+c);
                         }
-                        //System.out.println("you chose\t"+user+"\tcomp chose\t");
                         break;
                     case 1:
                         compch="paper";
                         System.out.println("you chose\t"+user+"\tcomp chose\t"+compch);
                         if(user.equalsIgnoreCase(compch)){
                             System.out.println("Tied");
+                            System.out.println("You:"+u+"\tComp:"+c);
                         }
                         else if(user.equalsIgnoreCase("scissors")){
                             System.out.println("You won,Comp lost");
@@ -77,6 +76,7 @@ public class Game{
                         System.out.println("you chose\t"+user+"\tcomp chose\t"+compch);
                         if(user.equalsIgnoreCase(compch)){
                             System.out.println("Tied");
+                            System.out.println("You:"+u+"\tComp:"+c);
                         }
                         else if(user.equalsIgnoreCase("rock")){
                             System.out.println("You won,Comp lost");
