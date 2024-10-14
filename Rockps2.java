@@ -16,6 +16,7 @@ public class Game{
             rounds=m.nextInt();
             for(int i=1;i<=rounds;i++){
                 user=compch=" ";
+                System.out.println("*".repeat(20));
                 System.out.println("Choose an option: \n1:Rock\n2:Paper\n3:Scissors");
                 System.out.print("->");
                 ch=m.nextInt();
@@ -26,7 +27,7 @@ public class Game{
                     user="paper";
                 }
                 else if(ch==3){
-                    user="scissor";
+                    user="scissors";
                 }
                 else{
                     System.out.println("Wrong choice,Game over");
